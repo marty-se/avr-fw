@@ -1,0 +1,13 @@
+[package]
+name = "avr-fw"
+version = "0.1.0"
+authors = ["marka"]
+edition = "2018"
+
+[dependencies]
+panic-halt = "0.2"
+#atmega32u4-hal = "0.1"
+
+[build-dependencies]
+bindgen = "0.47"
+avr-mcu = "0.2"
